@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/FastReactPizzaApi.props" />
-</Project>

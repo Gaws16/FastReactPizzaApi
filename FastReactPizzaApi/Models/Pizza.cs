@@ -13,8 +13,10 @@ public class Pizza
     [Required]
     [Range(MinUnitPrice, MaxUnitPrice,ErrorMessage = "Price must be between 0 and 100")]
     public int UnitPrice { get; set; }
+    
     public IEnumerable<string> Ingredients { get; set; } = null!;
     public bool SoldOut { get; set; }
+    [Required]
     public string ImageUrl { get; set; } = null!;
     
     

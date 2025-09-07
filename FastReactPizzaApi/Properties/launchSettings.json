@@ -16,7 +16,9 @@
       "launchUrl": "swagger",
       "applicationUrl": "http://localhost:5217",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SUPABASE_URL": "https://pqlwtlhpvpxqlvravrgj.supabase.co",
+        "SUPABASE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBxbHd0bGhwdnB4cWx2cmF2cmdqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTcxODc4ODMsImV4cCI6MjA3Mjc2Mzg4M30.7e-zye1wYqh8TfsW8jsLrWN2eZ6liUwxbZK8md4iR7Q"
       }
     },
     "https": {
@@ -26,7 +28,9 @@
       "launchUrl": "swagger",
       "applicationUrl": "https://localhost:7012;http://localhost:5217",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SUPABASE_URL": "https://pqlwtlhpvpxqlvravrgj.supabase.co",
+        "SUPABASE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBxbHd0bGhwdnB4cWx2cmF2cmdqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTcxODc4ODMsImV4cCI6MjA3Mjc2Mzg4M30.7e-zye1wYqh8TfsW8jsLrWN2eZ6liUwxbZK8md4iR7Q"
       }
     },
     "IIS Express": {

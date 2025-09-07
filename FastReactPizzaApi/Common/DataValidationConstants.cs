@@ -13,4 +13,11 @@ public static class DataValidationConstants
         public const int MinUnitPrice = 0;
         public const int MaxUnitPrice = 100;
     }
+
+    public static class Order
+    {
+        
+    }
+        
+        
 }
