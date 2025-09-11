@@ -1,3 +1,4 @@
+using FastReactPizzaApi.Endpoints;
 using FastReactPizzaApi.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Supabase;
@@ -65,6 +66,7 @@ app.MapGet("/weatherforecast", () =>
     })
     .WithName("GetWeatherForecast")
     .WithOpenApi();
+app.MapPizzaEndpoints();
 
 app.Run();
 

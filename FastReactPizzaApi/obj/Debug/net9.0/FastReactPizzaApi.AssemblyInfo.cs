@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FastReactPizzaApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07358cae966748b2a51893e536b9f59b7b91d6d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b36480395bf5be4e010458b1cac731c6a52e3b7a")]
 [assembly: System.Reflection.AssemblyProductAttribute("FastReactPizzaApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FastReactPizzaApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
