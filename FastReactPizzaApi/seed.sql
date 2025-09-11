@@ -1,0 +1,20 @@
+INSERT INTO public."Pizzas" ( "Name", "UnitPrice", "SoldOut", "ImageUrl", "Ingredients")
+VALUES
+    ('Margherita', 12, false, 'https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-1.jpg', ARRAY['tomato','mozzarella','basil']),
+    ('Capricciosa', 14, true, 'https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-2.jpg', ARRAY['tomato','mozzarella','ham','mushrooms','artichoke']),
+    ('Romana', 15, false, 'https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-3.jpg', ARRAY['tomato','mozzarella','prosciutto']),
+    ('Prosciutto e Rucola', 16, false, 'https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-4.jpg', ARRAY['tomato','mozzarella','prosciutto','arugula']),
+    ('Diavola', 16, false, 'https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-5.jpg', ARRAY['tomato','mozzarella','spicy salami','chili flakes']),
+    ('Vegetale', 13, false, 'https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-6.jpg', ARRAY['tomato','mozzarella','bell peppers','onions','mushrooms']),
+    ('Napoli', 16, false, 'https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-7.jpg', ARRAY['tomato','mozzarella','fresh tomato','basil']),
+    ('Siciliana', 16, true, 'https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-8.jpg', ARRAY['tomato','mozzarella','anchovies','olives','capers']),
+    ('Pepperoni', 14, false, 'https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-9.jpg', ARRAY['tomato','mozzarella','pepperoni']),
+    ( 'Hawaiian', 15, false, 'https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-10.jpg', ARRAY['tomato','mozzarella','pineapple','ham']),
+    ( 'Spinach and Mushroom', 15, false, 'https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-11.jpg', ARRAY['tomato','mozzarella','spinach','mushrooms']),
+    ( 'Mediterranean', 16, false, 'https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-12.jpg', ARRAY['tomato','mozzarella','sun-dried tomatoes','olives','artichoke']),
+    ( 'Greek', 16, true, 'https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-13.jpg', ARRAY['tomato','mozzarella','spinach','feta','olives','pepperoncini']),
+    ( 'Abruzzese', 16, false, 'https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-14.jpg', ARRAY['tomato','mozzarella','prosciutto','arugula']),
+    ( 'Pesto Chicken', 16, false, 'https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-15.jpg', ARRAY['pesto','mozzarella','chicken','sun-dried tomatoes','spinach']),
+    ( 'Eggplant Parmesan', 15, false, 'https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-16.jpg', ARRAY['marinara','mozzarella','eggplant','parmesan']),
+    ( 'Roasted Veggie', 15, false, 'https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-17.jpg', ARRAY['marinara','mozzarella','zucchini','eggplant','peppers','onions']),
+    ( 'Tofu and Mushroom', 15, false, 'https://dclaevazetcjjkrzczpc.supabase.co/storage/v1/object/public/pizzas/pizza-18.jpg', ARRAY['marinara','mozzarella','tofu','mushrooms','bell peppers']);
