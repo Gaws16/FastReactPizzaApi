@@ -13,14 +13,12 @@ public static class PizzaEndpoints
                                 .WithTags("Pizzas");
 
         group.MapGet("/", async (FastReactPizzaApiDbContext dbContext) =>
-        new ApiResponse<List<Pizza>>
             {
-                Status = 0,
-                Data = await dbContext.Pizzas
+                var pizzas = await dbContext.Pizzas
                     .AsNoTracking()
-                    .ToListAsync()
-                
-            }
+                    .ToListAsync();
+                return ApiResponse<List<Pizza>>.Success(pizzas);
+            } 
             
         );
 
