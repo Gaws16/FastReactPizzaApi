@@ -36,6 +36,15 @@ builder.Services.AddSingleton(provider=>new Supabase.Client(supabaseUrl, supabas
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("Allow Frontend", policy =>
+    {
+        policy.WithOrigins("http://localhost:5173")
+                                .AllowAnyHeader()
+                                .AllowAnyMethod();
+    });
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -67,6 +76,7 @@ app.MapGet("/weatherforecast", () =>
     .WithName("GetWeatherForecast")
     .WithOpenApi();
 app.MapPizzaEndpoints();
+app.UseCors("Allow Frontend");
 
 app.Run();
 
